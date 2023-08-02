@@ -1,18 +1,56 @@
-## Getting Started
+# Convertidor de Moneda Y Temperatura
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+_Este proyecto surgido del challege proporciado por Alura Latam. El programa permite a los usuarios convertir entre diferentes tipos de monedas y también realizar conversiones de temperaturas. La interfaz de usuario es proporcionada por medio de cuadros de diálogo utilizando la librería Swing._
 
-## Folder Structure
+## Caracteristicas 🚀
 
-The workspace contains two folders by default, where:
+_El programa permite a los usuarios convertir entre diferentes tipos de monedas, proporcionando una interfaz amigable donde pueden ingresar la cantidad de moneda a convertir_
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Mira **Deployment** para conocer como desplegar el proyecto.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Funcionalidades 📋
 
-## Dependency Management
+* _Selecion de conversión_¨
+* _Manejo de errores_
+* _Opciones de Continuar o Salir_
+* _Validación de Entrada_
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+```
+Da un ejemplo
+```
+
+### Como usar 🔧
+
+_Se puede usar y ejecutar directamente desde el jar ejecutable disponible en el repositorio o importar el proyecto completo en un entorno de desarrolo Java_
+
+_Una vez ejecutado simplemete seguir los paso a seguir del programa_
+
+
+## Requisitos ⚙️
+
+* _Java Runtime Environment_
+* _Java SE Development Kit (JDK)_
+* _Entorno de desarrollo Java (como Eclipse o IntelliJ) o simplemente puedes compilar y ejecutar el código usando la línea de comandos_
+
+## Construido con 🛠️
+
+
+* _Lenguaje de Programación: Java_
+* _Interfaz de Usuario: Librería Swing_
+* _IDE VS CODE_
+
+
+## Autores ✒️
+
+
+* **Vincen Stephan** - *Todo el proyecto en general* 
+
+
+
+## Licencia 📄
+
+_Este proyecto está bajo la Licencia MIT._
+
+
