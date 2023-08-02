@@ -11,15 +11,12 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Funcionalidades 📋
 
-* _Selecion de conversión_¨
+* _Selecion de conversión_
 * _Manejo de errores_
 * _Opciones de Continuar o Salir_
 * _Validación de Entrada_
 
 
-```
-Da un ejemplo
-```
 
 ### Como usar 🔧
 
