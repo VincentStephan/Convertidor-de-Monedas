@@ -15,6 +15,8 @@ public class cuadroDialogoTemp extends menuPrincipal {
             if (inputGrados != null) {
              double gradosDato = Double.parseDouble(inputGrados);
              elegirEscala(gradosDato);
+            } else {
+             continuar();
             }
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null, "valor no valido", "Error", JOptionPane.ERROR_MESSAGE);
