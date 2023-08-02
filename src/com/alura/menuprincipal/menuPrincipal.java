@@ -12,7 +12,7 @@ public class menuPrincipal {
 
     public static void elegirConversor() {
         String moneda = "Convertidor de monedas";
-        String temperatura = "Convertidor de Temperaturas";
+        String temperatura = "Convertidor de temperaturas";
         Object[] selectionValues = { moneda, temperatura };
 
         String seleccion = (String) JOptionPane.showInputDialog(null,
