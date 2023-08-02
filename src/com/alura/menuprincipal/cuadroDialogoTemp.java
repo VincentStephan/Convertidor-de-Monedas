@@ -46,15 +46,15 @@ public class cuadroDialogoTemp extends menuPrincipal {
         Convertidor convertidorTemperatura = new Convertidor();
 
             Map<String, Runnable> optionAccion = new HashMap<>();
-            optionAccion.put("De Celsius a Fahrenheit", () -> convertidorTemperatura.convertirTemperatura(gradosDato , " Fahrenheit"));
-            optionAccion.put("De Fahrenheit a Celsius", () -> convertidorTemperatura.convertirTemperatura(gradosDato , " Celsius"));
+            optionAccion.put("De Celsius a Fahrenheit", () -> convertidorTemperatura.convertirTemperatura(gradosDato , "Fahrenheit"));
+            optionAccion.put("De Fahrenheit a Celsius", () -> convertidorTemperatura.convertirTemperatura(gradosDato , "Celsius"));
 
             Runnable accion = optionAccion.get(opcion);
             if (accion != null) {
                 accion.run();
+            } 
             } else {
                 continuar();
-            }
         } 
      }
         public void continuar (){

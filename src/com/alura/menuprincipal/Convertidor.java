@@ -7,7 +7,7 @@ public class Convertidor extends cuadroDialogoMoneda {
     public void convertirMoneda(double dinero, double tasa, String moneda) {
     
      double resultado = dinero * tasa;
-     String mensaje = String.format("Tienes $ %.2f", resultado);
+     String mensaje = String.format("Tienes $ %.2f ", resultado);
      JOptionPane.showMessageDialog(null, mensaje + moneda, "Resultado", JOptionPane.INFORMATION_MESSAGE);
      continuar(); 
 
@@ -24,7 +24,7 @@ public class Convertidor extends cuadroDialogoMoneda {
          resultado = (grado - 32) * 5/9;
      }
      
-     String mensaje = String.format("Hay  %.2f convertidos a", resultado);
+     String mensaje = String.format("Hay  %.2f convertidos a ", resultado);
      JOptionPane.showMessageDialog(null, mensaje + escala, "Resultado", JOptionPane.INFORMATION_MESSAGE);
      continuar(); 
 
