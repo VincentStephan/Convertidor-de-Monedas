@@ -20,7 +20,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Como usar 🔧
 
-_Se puede usar y ejecutar directamente desde el jar ejecutable disponible en el repositorio o importar el proyecto completo en un entorno de desarrolo Java_
+_Se puede usar y ejecutar directamente desde el .jar ejecutable disponible en el repositorio o importar el proyecto completo en un entorno de desarrolo Java_
 
 _Una vez ejecutado simplemete seguir los paso a seguir del programa_
 
