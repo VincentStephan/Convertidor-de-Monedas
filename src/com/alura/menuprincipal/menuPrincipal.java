@@ -1,34 +1,25 @@
 package com.alura.menuprincipal;
 
-import javax.swing.JOptionPane;
+
+import com.alura.interfazGrafica.MenuFrame;
+import javax.swing.SwingUtilities;
 
 public class menuPrincipal {
-   static cuadroDialogoMoneda cuadroDialogoMoneda = new cuadroDialogoMoneda();
-   static cuadroDialogoTemp cuadroDialogoTemp = new cuadroDialogoTemp();
-     
+ 
+    
     public static void main(String[] args) {
-      elegirConversor();
+        SwingUtilities.invokeLater(() -> {
+            mostrarMenu();
+        });
     }
 
-    public static void elegirConversor() {
-        String moneda = "Convertidor de monedas";
-        String temperatura = "Convertidor de temperaturas";
-        Object[] selectionValues = { moneda, temperatura };
-
-        String seleccion = (String) JOptionPane.showInputDialog(null,
-                "Elija una Opción",
-                "Menu", JOptionPane.INFORMATION_MESSAGE,
-                null,
-                selectionValues,
-                selectionValues[0]);
-
-        if (seleccion != null && seleccion.equals(moneda)) {
-            cuadroDialogoMoneda.inputMoneda();
-        } else if (seleccion != null && seleccion.equals(temperatura)) {
-            cuadroDialogoTemp.inputTemperatura();
-        } else {
-            cuadroDialogoMoneda.continuar();
-        }
+    public static void mostrarMenu() {
+        MenuFrame menuFrame = new MenuFrame();
+        menuFrame.setTitle("Menú Principal");
+        menuFrame.setDefaultCloseOperation( javax.swing.JFrame.EXIT_ON_CLOSE);
+        menuFrame.pack();
+        menuFrame.setLocationRelativeTo(null); // Centrar el JFrame en la pantalla
+        menuFrame.setVisible(true);
     }
 }
 

@@ -1,21 +1,18 @@
 package com.alura.menuprincipal;
 
-import javax.swing.JOptionPane;
 
-public class Convertidor extends cuadroDialogoMoneda {
+public class Convertidor {
     
-    public void convertirMoneda(double dinero, double tasa, String moneda) {
-    
-     double resultado = dinero * tasa;
-     String mensaje = String.format("Tienes $ %.2f ", resultado);
-     JOptionPane.showMessageDialog(null, mensaje + moneda, "Resultado", JOptionPane.INFORMATION_MESSAGE);
-     continuar(); 
+    public String convertirMoneda(double dinero, double tasa, String moneda) {
+    double resultado = dinero * tasa;
+    return String.format("Tienes "+  moneda + " $ %.2f ", resultado );
+     
 
-    
+  
 
     }
 
-    public void convertirTemperatura(double grado, String escala) {
+    public String convertirTemperatura(double grado, String escala) {
     double resultado = 0;
     
      if (escala.equals("Fahrenheit")) {
@@ -24,9 +21,8 @@ public class Convertidor extends cuadroDialogoMoneda {
          resultado = (grado - 32) * 5/9;
      }
      
-     String mensaje = String.format("Hay  %.2f convertidos a ", resultado);
-     JOptionPane.showMessageDialog(null, mensaje + escala, "Resultado", JOptionPane.INFORMATION_MESSAGE);
-     continuar(); 
+      return String.format("%.2f convertidos a  " +  escala + "", resultado);
+    
 
 
      }
