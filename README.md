@@ -42,7 +42,7 @@ _Una vez ejecutado simplemete seguir los paso a seguir del programa_
 ## Autores ✒️
 
 
-* **Vincen Stephan** - *Todo el proyecto en general* 
+* **Vincent Stephan** - *Todo el proyecto en general* 
 
 
 
