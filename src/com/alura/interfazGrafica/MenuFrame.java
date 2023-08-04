@@ -210,6 +210,8 @@ public class MenuFrame extends javax.swing.JFrame {
     contentPrincipal.repaint();
     MonedaPanel.jTextField2.setText("");
     TemperaturaPanel.jTextField2.setText( "");
+    MonedaPanel.jTextField1.setText("");
+    TemperaturaPanel.jTextField1.setText( "");
     
     }//GEN-LAST:event_jButton3MouseClicked
 

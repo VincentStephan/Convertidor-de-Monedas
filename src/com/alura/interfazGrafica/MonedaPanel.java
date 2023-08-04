@@ -225,7 +225,7 @@ public class MonedaPanel extends javax.swing.JPanel {
     private javax.swing.JButton jButton1;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField jTextField1;
+    protected javax.swing.JTextField jTextField1;
     protected javax.swing.JTextField jTextField2;
     private java.awt.Label label1;
     private java.awt.TextArea textArea1;
