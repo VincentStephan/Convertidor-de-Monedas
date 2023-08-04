@@ -48,6 +48,8 @@ public class MonedaPanel extends javax.swing.JPanel {
         jTextField1 = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
 
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
         content.setBackground(new java.awt.Color(255, 255, 255));
         content.setToolTipText("aaaaaaa");
         content.setPreferredSize(new java.awt.Dimension(982, 540));
@@ -88,7 +90,6 @@ public class MonedaPanel extends javax.swing.JPanel {
         jTextField1.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField1.setText("AQUI RESULTADO");
         jTextField1.setBorder(null);
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
