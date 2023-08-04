@@ -3,6 +3,7 @@
 _Este proyecto surgido del challege proporciado por Alura Latam. El programa permite a los usuarios convertir entre diferentes tipos de monedas y también realizar conversiones de temperaturas (las conversiones son datos estaticos sin API). La interfaz de usuario es proporcionada por medio de cuadros de diálogo utilizando la librería Swing._
 
 ## Caracteristicas 🚀
+https://github.com/VincentStephan/Convertidor-de-Monedas/assets/134095107/a1c604d7-6aa9-4188-a784-783fffae504c
 
 _El programa permite a los usuarios convertir entre diferentes tipos de monedas, proporcionando una interfaz amigable donde pueden ingresar la cantidad de moneda a convertir_
 
