@@ -29,7 +29,7 @@ _Una vez ejecutado simplemete seguir los paso a seguir del programa_
 
 * _Java Runtime Environment 17_
 * _Java SE Development Kit (JDK) 17_
-* _Entorno de desarrollo Java (como Eclipse o IntelliJ) o simplemente puedes compilar y ejecutar el código usando la línea de comandos_
+* _Entorno de desarrollo Java (como Eclipse o NetBeans) o simplemente puedes compilar y ejecutar el código usando la línea de comandos_
 
 ## Construido con 🛠️
 
