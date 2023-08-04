@@ -37,7 +37,7 @@ _Una vez ejecutado simplemete seguir los paso a seguir del programa_
 
 * _Lenguaje de Programación: Java_
 * _Interfaz de Usuario: Librería Swing_
-* _IDE VS CODE_
+* _IDE NetBeans_
 
 
 ## Autores ✒️
